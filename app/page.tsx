@@ -30,53 +30,51 @@ export default function Home() {
           itemActive={itemActive}
           id={1}
           image="/imgs/auto1.jpg"
-          brand="Nissan"
-          name="Skyline"
-          desc="The Nissan Skyline is a Japanese sports car known for its power and
-          aerodynamic design. It typically features powerful engines, all-wheel
-          drive (AWD), and iconic versions like the Skyline GT-R, renowned for
-          its track performance."
+          brand="BMW"
+          name="Serie 3"
+          desc="The BMW 3 Series is a compact luxury car renowned for its sporty performance, premium interior, and cutting-edge technology.
+          With a reputation for dynamic driving dynamics and refined comfort, 
+          the 3 Series offers a balance of exhilarating driving experience and upscale amenities."
         />
         <SliderItem
           itemActive={itemActive}
           id={2}
           image="/imgs/auto2.jpg"
-          brand="Porsche"
-          name="911 carrera"
-          desc="The Porsche 911 Carrera is a legendary sports car with a distinctive and elegant design.
-          Equipped with powerful engines, it delivers impressive performance. Its interior blends luxury and technology, while its exceptional handling provides an exciting and agile driving experience.
-          An icon that seamlessly merges style and performance."
+          brand="Nissan"
+          name="Versa"
+          desc="The Nissan Versa is a compact car known for its modern design, spacious interior, and fuel efficiency.
+          Equipped with advanced technology and safety features, the Versa offers a combination of style,
+          functionality, and affordability in its segment."
         />
         <SliderItem
           itemActive={itemActive}
           id={3}
           image="/imgs/auto3.jpg"
-          brand="Toyota"
-          name="Supra mk4"
-          desc="The Toyota Supra Mk4 is an iconic sports car celebrated for its distinct and dynamic design.
-          Powered by potent engines, it delivers impressive performance.
-          The interior seamlessly combines comfort with advanced technology, providing a luxurious driving experience.
-          With exceptional handling, the Supra Mk4 offers an exhilarating and agile ride.
-          A symbol of automotive excellence that harmonizes style and performance."
+          brand="Ford"
+          name="Territory"
+          desc="The Ford Territory is a mid-size SUV known for its spacious interior, comfortable ride, and advanced technology features.
+          Offering ample cargo space and versatile seating options, the Territory is designed to provide both practicality and comfort for drivers and passengers alike.
+          With modern styling and a range of safety features, it offers a compelling option in the SUV market."
         />
         <SliderItem
           itemActive={itemActive}
           id={4}
           image="/imgs/auto4.jpg"
-          brand="Honda"
-          name="Civic 2.0"
-          desc="The Honda Civic 2.0 is a car that blends a 2.0-liter engine with a modern design and fuel efficiency.}
-          It stands out for its advanced technology, comfortable interior, and safety features."
+          brand="Subaru"
+          name="XV"
+          desc="The Subaru XV is a compact crossover SUV recognized for its capable all-wheel-drive system, rugged styling, and versatile design.
+          Offering a blend of off-road capability and urban agility, the XV appeals to adventurous drivers seeking a versatile vehicle for various terrains and weather conditions.
+          With Subaru's renowned reliability and safety features, the XV provides peace of mind for both daily commuting and weekend excursions."
         />
         <SliderItem
           itemActive={itemActive}
           id={5}
           image="/imgs/auto5.jpg"
-          brand="Ford"
-          name="Ranger"
-          desc="The Ford Ranger is a midsize pickup truck known for its versatility and robustness.
-          It offers various engine options, towing and payload capacity, as well as two or four-wheel drive configurations. 
-          With modern technological and safety features, the Ranger is a popular choice for those seeking a rugged and functional truck."
+          brand="Mercedes-Benz"
+          name="EQA"
+          desc="The Mercedes-Benz EQA is an all-electric compact luxury SUV characterized by its sleek design, advanced technology, and zero-emission driving.
+          As part of the EQ family, it embodies Mercedes-Benz's commitment to sustainable mobility while offering the refinement and luxury expected from the brand.
+          With impressive performance, long-range capabilities, and a premium interior, the EQA represents the future of electric luxury vehicles."
         />
       </ul>
       <Arrows onClickPrev={() => onPrev()} onClickNext={() => onNext()} />
@@ -85,35 +83,35 @@ export default function Home() {
           itemActive={itemActive}
           image="/imgs/auto1.jpg"
           id={1}
-          name="Skyline"
+          name="Serie 3"
           onClic={() => setItemActive(1)}
         />
         <SliderThumbnailItem
           itemActive={itemActive}
           image="/imgs/auto2.jpg"
           id={2}
-          name="911 carrera"
+          name="Versa"
           onClic={() => setItemActive(2)}
         />
         <SliderThumbnailItem
           itemActive={itemActive}
           image="/imgs/auto3.jpg"
           id={3}
-          name="Supra mk4"
+          name="Territory"
           onClic={() => setItemActive(3)}
         />
         <SliderThumbnailItem
           itemActive={itemActive}
           image="/imgs/auto4.jpg"
           id={4}
-          name="Civic 2.0"
+          name="XV"
           onClic={() => setItemActive(4)}
         />
         <SliderThumbnailItem
           itemActive={itemActive}
           image="/imgs/auto5.jpg"
           id={5}
-          name="Ranger"
+          name="EQA"
           onClic={() => setItemActive(5)}
         />
       </ul>
